@@ -12,7 +12,7 @@ public class DBConnect {
             Class.forName("com.mysql.cj.jdbc.Driver");
             
             // Establish the database connection
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookapp", "root", "P@van@1928");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/yourdatabasename", "root", "yoursqlPassword");
         } catch (Exception e) {
             e.printStackTrace();
         }
